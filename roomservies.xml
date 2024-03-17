@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Device tree -->
+  <project name="mrx7014/android_device_samsung_a23" path="device/samsung/a23" remote="github" revision="lineage-21.0" />
+  <project name="mrx7014/android_device_samsung_sm6225-common" path="device/samsung/sm6225-common" remote="github" revision="lineage-21.0" />
+
+  <!-- Vendor tree -->
+  <project name="mrx7014/android_vendor_samsung_a23" path="vendor/samsung/a23" remote="github" revision="lineage-21.0" />
+  <project name="mrx7014/android_vendor_samsung_sm6225-common" path="vendor/samsung/sm6225-common" remote="github" revision="lineage-21.0" />
+
+  <!-- Kernel source -->
+  <project name="mrx7014/android_kernel_samsung_sm6225" path="kernel/samsung/sm6225" remote="github" revision="master" />
+
+</manifest>

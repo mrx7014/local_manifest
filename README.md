@@ -1,25 +1,25 @@
-# Manifest for building LineageOS 21.0 for a23.
+# Manifest for building CrDroid 14.0 for gta4llte.
 
-`a23` is the codename for the 4G variant of the Samsung A23, with model SM-A235F, SM-A235M and also with SM-A235N.
+`gta4llte` is the codename for the LTE variant of the Samsung Galaxy Tab A7, with model SM-T505, and also with SM-T505N.
 
 Some extremely basic instructions:
-- Make a new directory for Lineage sources and enter it:
+- Make a new directory for CrDroid sources and enter it:
 ```
-mkdir lineage-21.0
-cd lineage-21.0
+mkdir crdroid-14.0
+cd crdroid-14.0
 ```
 
-- Initialize repo in this directory with the LineageOS 21.0 android repository:
+- Initialize repo in this directory with the CrDroid 14.0 android repository:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
+repo init -u https://github.com/crdroidandroid/android.git -b 14.0 --git-lfs
 ```
 
 - Clone this repository to .repo/local_manifests for roomservice.xml containing the repositories needed to build for these devices:
 ```
-git clone https://github.com/mrx7014/local_manifest.git -b lineage-21.0_a23 .repo/local_manifests
+git clone https://github.com/mrx7014/gta4l-manifests.git -b crdroid-14.0_gta4l .repo/local_manifests
 ```
 
-- Sync all of the repositories in manifests (including LineageOS manifests):
+- Sync all of the repositories in manifests (including CrDroid manifests):
 ```
 repo sync
 ```
@@ -27,6 +27,6 @@ repo sync
 - Finally, build as you like.
 ```
 . build/envsetup.sh
-lunch lineage_a23-eng
-mka otapackage
+lunch lineage_gta4l-eng
+m bacon
 ```

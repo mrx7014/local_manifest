@@ -27,6 +27,6 @@ repo sync
 - Finally, build as you like.
 ```
 . build/envsetup.sh
-lunch lineage_gta4l-eng
-m bacon
+lunch lineage_gta4l-userdebug
+mka bacon
 ```

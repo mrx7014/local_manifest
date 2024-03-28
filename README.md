@@ -27,6 +27,6 @@ repo sync
 - Finally, build as you like.
 ```
 . build/envsetup.sh
-lunch lineage_a23-eng
-mka otapackage
+lunch lineage_a23-userdebug
+mka bacon
 ```

@@ -10,6 +10,6 @@
   <project name="mrx7014/android_vendor_samsung_sm6225-common" path="vendor/samsung/sm6225-common" remote="github" revision="lineage-21.0" />
 
   <!-- Kernel source -->
-  <project name="mrx7014/android_kernel_samsung_sm6225" path="kernel/samsung/sm6225" remote="github" revision="stock-14" />
+  <project name="mrx7014/android_kernel_samsung_sm6225" path="kernel/samsung/sm6225" remote="github" revision="KSU_A14" />
 
 </manifest>

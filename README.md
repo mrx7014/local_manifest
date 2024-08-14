@@ -9,9 +9,9 @@ mkdir lineage-20.0
 cd lineage-20.0
 ```
 
-- Initialize repo in this directory with the LineageOS 21.0 android repository:
+- Initialize repo in this directory with the LineageOS 20.0 android repository:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
+repo init -u https://github.com/LineageOS/android.git -b lineage-20.0
 ```
 
 - Clone this repository to .repo/local_manifests for roomservice.xml containing the repositories needed to build for these devices:

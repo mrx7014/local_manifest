@@ -11,5 +11,7 @@
 
   <!-- Kernel source -->
   <project name="mrx7014/android_kernel_samsung_sm6225" path="kernel/samsung/sm6225" remote="github" revision="KSU_A14" />
-
+  
+  <!-- hardware -->
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-21" />
 </manifest>

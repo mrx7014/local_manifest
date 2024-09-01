@@ -11,7 +11,7 @@ cd lineage-21
 
 - Initialize repo in this directory with the LineageOS 20.0 android repository:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-21
+repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
 ```
 
 - Clone this repository to .repo/local_manifests for roomservice.xml containing the repositories needed to build for these devices:

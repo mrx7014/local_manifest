@@ -1,22 +1,22 @@
-# Manifest for building LineageOS 20.0 for a23.
+# Manifest for building LineageOS 21 for a23.
 
 `a23` is the codename for the 4G variant of the Samsung A23, with model SM-A235F, SM-A235M and also with SM-A235N.
 
 Some extremely basic instructions:
 - Make a new directory for Lineage sources and enter it:
 ```
-mkdir lineage-20.0
-cd lineage-20.0
+mkdir lineage-21
+cd lineage-20
 ```
 
 - Initialize repo in this directory with the LineageOS 20.0 android repository:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-20.0
+repo init -u https://github.com/LineageOS/android.git -b lineage-21
 ```
 
 - Clone this repository to .repo/local_manifests for roomservice.xml containing the repositories needed to build for these devices:
 ```
-git clone https://github.com/mrx7014/local_manifest.git -b lineage-20.0_a23 .repo/local_manifests
+git clone https://github.com/mrx7014/local_manifest.git -b lineage-a23 .repo/local_manifests
 ```
 
 - Sync all of the repositories in manifests (including LineageOS manifests):

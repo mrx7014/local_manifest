@@ -6,7 +6,7 @@ Some extremely basic instructions:
 - Make a new directory for Lineage sources and enter it:
 ```
 mkdir lineage-21
-cd lineage-20
+cd lineage-21
 ```
 
 - Initialize repo in this directory with the LineageOS 20.0 android repository:

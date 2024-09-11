@@ -28,5 +28,5 @@ repo sync
 ```
 . build/envsetup.sh
 lunch lineage_a23-ap2a-userdebug
-mka bacon
+mka otapackage
 ```

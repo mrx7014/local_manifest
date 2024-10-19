@@ -14,6 +14,11 @@ cd lineage-21
 repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
 ```
 
+- To free some space use:
+```
+repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
+```
+
 - Clone this repository to .repo/local_manifests for roomservice.xml containing the repositories needed to build for these devices:
 ```
 git clone https://github.com/mrx7014/local_manifest.git -b lineage-a23 .repo/local_manifests

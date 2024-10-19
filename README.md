@@ -9,7 +9,7 @@ mkdir lineage-21
 cd lineage-21
 ```
 
-- Initialize repo in this directory with the LineageOS 20.0 android repository:
+- Initialize repo in this directory with the LineageOS 21.0 android repository:
 ```
 repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
 ```

@@ -21,7 +21,7 @@ git clone https://github.com/mrx7014/local_manifest.git -b lineage-a23 .repo/loc
 
 - Sync all of the repositories in manifests (including LineageOS manifests):
 ```
-repo sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 - Finally, build as you like.
